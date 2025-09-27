@@ -6,14 +6,14 @@ struct Rectangle {
     int breadth;
 };
 
-int initialize(struct Rectangle *r , int l, int b) {
+void initialize(struct Rectangle *r , int l, int b) {
     r->length = l;
     r->breadth = b;
 }
 int area(struct Rectangle r) {
     return r.length*r.breadth;
 }
-int changeLength(struct Rectangle *r , int l) {
+void changeLength(struct Rectangle *r , int l) {
     r->length = l;
 }
 int main() {
