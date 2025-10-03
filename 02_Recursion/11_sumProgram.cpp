@@ -1,4 +1,4 @@
-// recursive function for dum
+// recursive function for sum
 
 #include<iostream>
 using namespace std;
