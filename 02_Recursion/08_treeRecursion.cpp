@@ -1,4 +1,4 @@
-// tree recursion means calling the recursive function again and again
+// tree recursion means calling the recursive function again and again...
 
 #include<iostream>
 using namespace std;
