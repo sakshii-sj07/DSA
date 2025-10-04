@@ -4,12 +4,13 @@
 using namespace std;
 
 double taylor(double x, double n) {
-    double s = 1;
-    while(n > 0) {
-        s = 1 + x/n * s;
-        n--;
+    double static s = 1;
+    if(n == 0) {
+        return s;
+    } else {
+         s = 1 + x/n*s;
+         return taylor(x, n-1);
     }
-    return s;
 }
 int main() {
     int num;
