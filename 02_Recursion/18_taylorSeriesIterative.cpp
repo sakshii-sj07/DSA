@@ -1,4 +1,4 @@
-// taylor series using iterative methoda that is loops.
+// taylor series using iterative method that is loops.
 
 #include<iostream>
 using namespace std;
