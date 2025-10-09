@@ -33,6 +33,7 @@ int binarySearch(struct Array arr, int key) {
             l = mid+1;
         }
     }
+    return -1;
 }
 int main() {
     struct Array arr;
