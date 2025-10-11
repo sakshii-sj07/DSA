@@ -18,7 +18,7 @@ void Display(struct Array arr) {
     cout<<endl;
 }
 
-int getElement(struct Array arr, int index) {
+int Get(struct Array arr, int index) {
     if(index >= 0 && index < arr.length) {
         return arr.A[index];
     }
@@ -48,6 +48,6 @@ int main() {
     cout<<"Enter index to get element : ";
     cin>>a;
     
-    cout<<"The element is at "<<getElement(arr,a)<<" index.";
+    cout<<"The element is at "<<Get(arr,a)<<" index.";
     return 0;
 }
