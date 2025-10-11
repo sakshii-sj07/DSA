@@ -18,7 +18,7 @@ void Display(struct Array arr) {
     cout<<endl;
 }
 
-int maxElement(struct Array arr) {
+int Max(struct Array arr) {
     int max = arr.A[0];
     for (int i = 0; i < arr.length; i++)
     {
@@ -47,6 +47,6 @@ int main() {
     }
     
     Display(arr);
-    cout<<"Maximum element is "<<maxElement(arr);
+    cout<<"Maximum element is "<<Max(arr);
     return 0;
 }
