@@ -18,7 +18,7 @@ void Display(struct Array arr) {
     cout<<endl;
 }
 
-int setElement(struct Array arr, int index, int element) {
+int Set(struct Array arr, int index, int element) {
     if(index >= 0 && index < arr.length) {
         arr.A[index] = element;
     }
@@ -47,7 +47,7 @@ int main() {
     cout<<"Enter index and element to set new element : ";
     cin>>a>>b;
 
-    setElement(arr,a,b);
+    Set(arr,a,b);
     cout<<"After set new element : ";
     Display(arr);
     return 0;
