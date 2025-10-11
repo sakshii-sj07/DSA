@@ -18,7 +18,7 @@ void Display(struct Array arr) {
     cout<<endl;
 }
 
-int minElement(struct Array arr) {
+int Min(struct Array arr) {
     int min = arr.A[0];
     for (int i = 0; i < arr.length; i++)
     {
@@ -48,6 +48,6 @@ int main() {
     
     Display(arr);
 
-    cout<<"Minimum element is "<<minElement(arr);
+    cout<<"Minimum element is "<<Min(arr);
     return 0;
 }
