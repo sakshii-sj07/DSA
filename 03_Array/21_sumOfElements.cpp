@@ -18,7 +18,7 @@ void Display(struct Array arr) {
     cout<<endl;
 }
 
-int sum(struct Array arr) {
+int Sum(struct Array arr) {
     int sum = 0;
     for (int i = 0; i < arr.length; i++)
     {
@@ -46,6 +46,6 @@ int main() {
     
     Display(arr);
 
-    cout<<"Sum is "<<sum(arr);
+    cout<<"Sum is "<<Sum(arr);
     return 0;
 }
